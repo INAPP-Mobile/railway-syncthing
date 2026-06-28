@@ -1,0 +1,26 @@
+# ── Railway template: Syncthing ──────────────────────────────────────────────
+
+# OS / editor droppings
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Environment files (users copy .env.example → .env)
+.env
+
+# Docker / build
+.docker/
+docker-compose*.yml
+
+# Node / npm (not used, but belt-and-suspenders)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python / misc
+__pycache__/
+*.pyc
+.venv/
