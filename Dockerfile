@@ -26,6 +26,11 @@ RUN chmod 755 /docker-entrypoint.sh
 #   21027   Discovery (UDP)
 EXPOSE 8384 22000 22000/udp 21027/udp
 
+# Default runtime configuration
+ENV PUID=1000
+ENV PGID=1000
+
+
 # ── Health check ────────────────────────────────────────────────────────────
 #   Shell-form CMD so ${PORT} expands correctly at runtime.
 #   Railway's platform probe hits the same endpoint by setting PORT.
