@@ -1,0 +1,17 @@
+{
+  "PUID": {
+    "defaultValue": "1000",
+    "description": "User ID for file ownership (default: 1000). Ignored on Railway (non-root container).",
+    "isOptional": true
+  },
+  "PGID": {
+    "defaultValue": "1000",
+    "description": "Group ID for file ownership (default: 1000). Ignored on Railway (non-root container).",
+    "isOptional": true
+  },
+  "STHOMEDIR": {
+    "defaultValue": "",
+    "description": "Syncthing home directory for config, keys, and database (default: /var/syncthing).",
+    "isOptional": true
+  }
+}

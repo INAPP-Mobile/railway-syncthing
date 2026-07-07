@@ -1,0 +1,14 @@
+[
+  {
+    "value": "1000",
+    "description": "User ID for file ownership (default: 1000). Ignored on Railway (non-root container)."
+  },
+  {
+    "value": "1000",
+    "description": "Group ID for file ownership (default: 1000). Ignored on Railway (non-root container)."
+  },
+  {
+    "value": "",
+    "description": "Syncthing home directory for config, keys, and database (default: /var/syncthing)."
+  }
+]
