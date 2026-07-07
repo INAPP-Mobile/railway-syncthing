@@ -9,6 +9,12 @@
     "healthcheckPath": "/rest/noauth/health",
     "healthcheckTimeout": 100,
     "restartPolicyType": "ON_FAILURE",
-    "restartPolicyMaxRetries": 3
+    "restartPolicyMaxRetries": 3,
+    "volumeMounts": [
+      {
+        "name": "syncthing-data",
+        "mountPath": "/var/syncthing"
+      }
+    ]
   }
 }
