@@ -8,7 +8,7 @@
     "description": "Group ID for file ownership (default: 1000). Ignored on Railway (non-root container)."
   },
   "STHOMEDIR": {
-    "value": "",
-    "description": "Syncthing home directory for config, keys, and database (default: /var/syncthing)."
+    "value": "/var/syncthing",
+    "description": "Syncthing home directory for config, keys, and database. Must match the persistent volume mount path (/var/syncthing) so config and the Sync folder survive redeploys."
   }
 }

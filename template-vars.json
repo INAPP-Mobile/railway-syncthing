@@ -10,8 +10,8 @@
     "isOptional": true
   },
   "STHOMEDIR": {
-    "defaultValue": "",
-    "description": "Syncthing home directory for config, keys, and database (default: /var/syncthing).",
+    "defaultValue": "/var/syncthing",
+    "description": "Syncthing home directory for config, keys, and database. Must match the persistent volume mount path (/var/syncthing) so config and the Sync folder survive redeploys.",
     "isOptional": true
   }
 }
