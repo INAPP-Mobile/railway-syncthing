@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <a href="https://railway.com/new/template/syncthing-1"><img src="https://img.shields.io/badge/Deploy%20on-Railway-%236C3FC5?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy on Railway"></a>
+  <a href="https://railway.com/deploy/syncthing-2"><img src="https://img.shields.io/badge/Deploy%20on-Railway-%236C3FC5?style=for-the-badge&logo=railway&logoColor=white" alt="Deploy on Railway"></a>
   <a href="https://github.com/syncthing/syncthing"><img src="https://img.shields.io/github/stars/syncthing/syncthing?style=for-the-badge&logo=github&label=GitHub" alt="GitHub Stars"></a>
   <a href="https://github.com/syncthing/syncthing/blob/main/LICENSE"><img src="https://img.shields.io/github/license/syncthing/syncthing?style=for-the-badge" alt="License"></a>
 </p>
@@ -32,7 +32,7 @@
 
 ### One-Click Deploy
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/syncthing-1)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/syncthing-2)
 
 Click the button above to deploy Syncthing instantly on Railway.
 
