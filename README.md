@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./template-icon.svg" alt="Syncthing" width="300" height="82">
+  <img src="https://raw.githubusercontent.com/INAPP-Mobile/railway-syncthing/main/template-icon.svg" alt="Syncthing" width="300" height="82">
   <h1 align="center">Syncthing</h1>
   <p align="center">Continuous file synchronization — private, secure, decentralized.</p>
 </div>
