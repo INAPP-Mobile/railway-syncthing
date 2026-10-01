@@ -7,7 +7,7 @@
 #   without extra proxies.
 # ────────────────────────────────────────────────────────────────────────────
 
-FROM syncthing/syncthing:2.1.1
+FROM syncthing/syncthing:2.1.3
 
 LABEL org.opencontainers.image.source="https://github.com/INAPP-Mobile/railway-syncthing"
 LABEL org.opencontainers.image.description="Syncthing — continuous file synchronization. Railway template."
