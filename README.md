@@ -47,7 +47,7 @@ Click the button above to deploy Syncthing instantly on Railway.
 | `PORT` | No | `8384` (set by Railway) | Web UI listen port. Railway injects this automatically; the entrypoint maps it to Syncthing's GUI address. |
 | `PUID` | No | `1000` | User ID for file ownership (only used when running as root) |
 | `PGID` | No | `1000` | Group ID for file ownership (only used when running as root) |
-| `STGUIADDRESS` | No | `0.0.0.0:${PORT}` | Override the GUI listen address (format: `<host>:<port>`) |
+| `STGUIADDRESS` | No | `0.0.0.0:${PORT}` | Override the GUI listen address (format: `{host}:{port}`) |
 | `STHOMEDIR` | No | `/var/syncthing/config` | Syncthing config directory |
 | `UMASK` | No | — | File creation umask (e.g., `002` for group-writable folders) |
 
